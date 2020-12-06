@@ -1,0 +1,98 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+body{
+    background: #000000;
+}
+
+/* Top Resume*/
+a:link{
+    color: rgb(23, 23, 110);
+}
+
+a:visited{
+    color: rgb(23, 23, 110);
+}
+
+#resume_top {
+    padding-top: 1%;
+    background-color: #808b96;
+}
+
+#name_title > h5:nth-child(1){
+    color: white;
+}
+
+#name_title > h5:nth-child(2){
+    color: rgb(23, 23, 110);
+}
+
+#personal_details_list {
+    color: white;
+    font-weight: bold;
+}
+
+#personal_details_txt {
+    color: white;
+}
+
+/*Bottom Resume*/
+#resume_bottom {
+    background-color: #808b96;
+}
+
+#headingOne, #headingTwo, #headingThree  {
+    background-color: #808b96;;
+}
+
+#headingOne > h5 > button, #headingTwo > h5 > button, #headingThree > h5 > button{
+    color: rgb(23, 23, 110);
+}
+
+#prof_exp > div{
+    font-weight: bold;
+}
+
+#training > div{
+    font-weight: bold;
+}
+
+#resume_right > div > div:nth-child(3) > div > div > div {
+    background-color: chocolate;
+}
+
+#resume_right > div > div:nth-child(4) > div > div > div{
+    background-color: cornflowerblue;
+}
+
+#resume_right > div > div:nth-child(5) > div > div > div {
+    background-color: darkcyan;
+}
+
+#API {
+    background-color: darkred;
+}
+
+#selenium {
+    background-color: rgb(59, 169, 206);
+}
+
+#testng {
+    background-color: gold;
+}
+
+#bootstrap{
+    background-color: rgb(105, 156, 28);
+}
